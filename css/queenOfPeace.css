@@ -1,0 +1,394 @@
+#contactBar{
+    background-color: #000000;
+}
+#contactBarIcons{
+    color: #C4C4C4;
+}
+#schoolName{
+    text-align: center;
+    text-transform: uppercase;
+    color: #612025;
+}
+#navBar{
+    /* text-decoration-line: none; */
+}
+.navIcons{
+    padding-right: 10px;
+    border-right: 1px solid #612025;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #612025;  
+}
+.navIcons:hover{
+    color: #F5A810;
+    text-decoration-line: none;
+}
+.navIconss{
+    padding-right: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #612025;   
+}
+.navIconss:hover{
+    color: #F5A810;
+    text-decoration-line: none;
+}
+.dropbtn {
+    color: #612025;
+    padding-right: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-right: 1px solid #612025;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #612025;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;
+    color: #000000;
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;} 
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {color: #F5A810;
+    text-decoration-line: none;
+  }
+  #slides{
+     border-radius: 100%;
+     padding: 5px;
+  }
+  #slideImg{
+      opacity: 0.9;
+      position: relative;
+  }
+  .captionHeading{
+      text-transform: uppercase;
+  }
+  .captionWriteup{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 20px;
+      text-transform: capitalize;
+  }
+  .carouselBox{
+      position: relative;
+  }
+  .littleAngel{
+    height: 50vh;
+    border-width: 70%;
+    /* text-align: center; */
+    background-color: #c5127b;
+    border-bottom-right-radius: 100%;
+    box-shadow:  5px 20px 20px #503E41;
+  } 
+  .curriculum {
+    height: 50vh;
+    border-width: 70%;
+    background-color: #F5A810;
+    border-bottom-right-radius: 100%;
+    box-shadow:  5px 20px 20px #c5127b;   
+}
+.facility{
+    height: 50vh;
+    border-width: 70%;
+    background-color: #503E41;
+    border-bottom-right-radius: 100%;
+    box-shadow:  5px 20px 20px #F5A810;   
+}
+.littleAngel h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.littleAngel p{
+    color: rgb(211, 197, 197);
+}
+.littleAngel a{
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.littleAngel a:hover{
+    color: white;
+}
+.curriculum h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;    
+}
+.curriculum p{
+    font-weight: 400;
+}
+.curriculum a{
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.curriculum a:hover{
+    color: white;
+}
+.facility h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;  
+}
+.facility p{
+    color: rgb(211, 197, 197);  
+}
+.facility a{
+    text-decoration-line: none;
+    color: white;
+    font-weight: bold;
+    text-align: center; 
+}
+.facility a:hover{
+    color: #000000;
+}
+#schImgBox{
+    background-color: black;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+#schImg{
+    height: 60Vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 50%;
+}
+#schImgBox a:hover{
+    opacity: 0.5;
+}
+#welcomeTitle{
+    margin-top:80px;
+    padding-left: 110px;
+    text-align: justify;
+    font-family:serif; 
+    /* margin-left: 500px; */
+}
+#welcomeTitle h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: #612025;
+    font-size: 40px;
+}
+#welcomeTitle a{
+    background-color: #F5A810;
+    padding: 10px;
+    border-radius: 5%;
+    text-decoration-line: none;
+    color: #000000;
+    font-weight: bold;
+}
+#welcomeTitle a:hover{
+    background-color: #612025;
+    color: white;
+}
+#googleCount{
+    background-color: #612025;
+}
+#googleCount span{
+    padding-top: 50px;
+    font-size: 50px;
+}
+#googleCount p{
+    text-transform: capitalize;
+    color: rgb(189, 183, 183);
+    font-size: 20px;
+}
+#picTitle{
+    margin-top: 50px;
+}
+#picTitle a{
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 30px;   
+}
+#picTitle span{
+    font-size: 30px;
+}
+.enroll{
+    padding:20px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 0px 10px grey;
+    text-transform: capitalize;
+}
+.enroll a{
+    text-decoration-line: none;
+    /* color: black; */
+    /* text-transform: capitalize; */
+}
+#quick-links{
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+}
+#quick-links a{
+    font-size: 13px;
+    text-transform: lowercase;
+    text-decoration-style: dotted; 
+}
+#quick-links a:hover{
+    color: #F5A810;
+}
+#footer-border{
+    padding-bottom: 80px;
+    border-bottom: 1px solid #F5A810;
+}
+#footer-contact{
+    font-size: 13px;
+    color: #C4C4C4;
+    text-align: justify;
+}
+.footer-logo-img{
+    height: 10vh;
+    margin-left: 70px;
+}
+#footer-logo-img-title{
+    text-align: center;
+    color: #C4C4C4;
+    text-decoration-line: none;
+    text-transform: capitalize;   
+}
+#copyright-sym{
+    /* padding: 10px; */
+    /* background-color: #C4C4C4; */
+    font-size: 13px;
+    padding-right: 4px;
+    padding-left: 2px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+#copyright{
+    text-transform: capitalize;
+    font-weight:300;
+}
+#footer-img{
+    background: url("../img/flower.jpg");
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+}
+#cultureImg{
+    width: 100%;
+    
+}
+#curriculumPg{
+    background: url("../img/culture.jpg");
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    opacity: initial;
+}
+#curriculumTitle{
+    position: absolute;
+    top: 350px;
+    text-align: center;
+    color: whitesmoke;
+}
+#curriculumPg-litAngel{
+    background-color: #c5127b;
+    color: #000000;
+    font-size: 40px;
+    font-family: serif;
+    text-transform: capitalize;
+}
+#curriculumPg-schcurr{
+    background-color:#F5A810;
+    color: #000000;
+    font-size: 40px;
+    font-family: serif;
+    text-transform: capitalize;
+}
+#curriculumPg-schFac{
+    background-color:#503E41;
+    color: rgb(212, 208, 208);
+    font-size: 40px;
+    font-family: serif;
+    text-transform: capitalize;
+}
+#aboutPg{
+    /* background: url("../img/lappymod.jpg"); */
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    background-color: #000000;
+    /* opacity: 0.5; */    
+}
+#aboutTitle{
+    position: absolute;
+    top: 180px;
+    text-align: center;
+    color: white;
+}
+#history-div p{
+ /* float: right;
+ shape-outside: circle(50%); */
+}
+#schImgs{
+    height: 60Vh;
+    width: 100%;
+    /* position: absolute; */
+    /* top: 0px;
+    right: 0px; */
+    border-radius: 50%;
+}
+#schImgs:hover{
+    background-color: #000000;
+    /* opacity: 0.5; */
+}
+.mission{
+    position: relative;
+    /* background-color: #C4C4C4; */
+    padding: 20px 40px 20px 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+.vision{
+    position: relative;
+    /* background-color: #C4C4C4; */
+    padding: 20px 40px 20px 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: center;
+}
+/* .floats{
+    float: left;
+    width: 50%;
+    shape-outside: ellipse(150px 300px at 50% 50%)
+}
+.floater{
+    float: right;
+
+}
+    
+   */
