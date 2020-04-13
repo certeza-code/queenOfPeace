@@ -95,25 +95,26 @@
       position: relative;
   }
   .littleAngel{
-    height: 50vh;
-    border-width: 70%;
+    /* border-width: 70%; */
     /* text-align: center; */
+    /* width: 70%; */
     background-color: #c5127b;
-    border-bottom-right-radius: 100%;
+    border-bottom-right-radius: 90%;
     box-shadow:  5px 20px 20px #503E41;
   } 
   .curriculum {
-    height: 50vh;
-    border-width: 70%;
+    /* border-width: 70%; */
+    /* height: 50vh; */
+    /* width: 70%; */
     background-color: #F5A810;
-    border-bottom-right-radius: 100%;
+    border-bottom-right-radius: 90%;
     box-shadow:  5px 20px 20px #c5127b;   
 }
 .facility{
-    height: 50vh;
-    border-width: 70%;
+    /* border-width: 70%; */
+    /* width: 70%; */
     background-color: #503E41;
-    border-bottom-right-radius: 100%;
+    border-bottom-right-radius: 90%;
     box-shadow:  5px 20px 20px #F5A810;   
 }
 .littleAngel h3{
@@ -123,6 +124,8 @@
 }
 .littleAngel p{
     color: rgb(211, 197, 197);
+    font-size-adjust: inherit;
+    font-size: 1rem;
 }
 .littleAngel a{
     text-decoration-line: none;
@@ -156,27 +159,28 @@
     margin-top: 20px;  
 }
 .facility p{
-    color: rgb(211, 197, 197);  
+    color: rgb(211, 197, 197);
+    font-size:1rem;  
 }
 .facility a{
     text-decoration-line: none;
     color: white;
     font-weight: bold;
-    text-align: center; 
+    text-align: justify;
 }
 .facility a:hover{
     color: #000000;
 }
 #schImgBox{
-    background-color: black;
-    height: 60vh;
+    /* background-color: black; */
+    /* height: 60vh; */
     width: 100%;
     position: relative;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     border-radius: 50%;
 }
 #schImg{
-    height: 60Vh;
+    /* height: 60Vh; */
     width: 100%;
     position: absolute;
     top: 0px;
@@ -188,10 +192,10 @@
 }
 #welcomeTitle{
     margin-top:80px;
-    padding-left: 110px;
+    font-size: 1.5rem;
     text-align: justify;
     font-family:serif; 
-    /* margin-left: 500px; */
+    
 }
 #welcomeTitle h3{
     text-align: center;
